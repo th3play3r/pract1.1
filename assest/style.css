@@ -1,0 +1,79 @@
+.name {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+.text {
+    font-size: 22px;
+    font-family: "PlayfairDisplay", serif;
+    color: rgb(0, 51, 117);
+    line-height: 1.667;
+    text-align: left;
+    width: 500px;
+    height: 340px;
+    margin-top: 10px; /* Відступ зверху */
+    margin-bottom: 10px; /* Відступ знизу */
+}
+
+html, body {
+    max-width: max-content;
+    max-height: max-content;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    height: 200px;
+    max-width: max-content;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.site-name {
+    font-size: 42px;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: -25px;
+}
+
+.about-me {
+    top: 170px;
+    position: relative;
+    font-size: 24px;
+    width: 500px;
+    text-align: left;
+}
+
+.skills {
+    top: 520px;
+    position: absolute;
+    font-size: 20px;
+    width: 500px;
+    text-align: left;
+    left: 140px;
+}
+ 
+.image { 
+    width: 600px;
+    height: 800px;
+    top: 100px;
+    left: 1200px;
+    position: absolute;
+    border: 2px solid rgba(0, 175, 181, 0.171); /* Рамка */
+    border-radius: 10px; /* Закругленість країв */
+}
+
+.top-bar {
+    background-color: rgba(35, 131, 0, 0.466); /* Ваш колір */
+    height: 75px; /* Висота полоски */
+    width: 1922px;
+    position: relative; /* Зафіксоване розташування */
+    top: -10px;
+    left: -10px;
+}
